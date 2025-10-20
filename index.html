@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	<title> Torch Flex </title>
+</head>
+<body>
+	<h1 id="Discriminant"> This effect only works on devices with a mouse pointer. Please change your device to view the same.</h1>
+	<div id="Overlay"></div>
+	<img src="./ProfPage.png" id="ProfPage" />
+</body>
+<script type="text/javascript">
+	const overlay = document.getElementById('Overlay');
+
+    document.addEventListener('mousemove', (e) => {
+      overlay.style.background = `
+        radial-gradient(circle 150px at ${e.pageX}px ${e.pageY - 20}px,
+        rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 0, 0.8) 10%, rgba(255, 165, 0, 0.5) 40%, rgba(255, 145, 100, 0.2) 80%, rgba(0, 0, 0, 0.8) 90%, rgba(0, 0, 0, 0.9999) 100%)`;
+    });
+</script>
+</html>

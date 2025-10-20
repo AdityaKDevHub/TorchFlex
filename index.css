@@ -1,0 +1,52 @@
+@media (pointer: fine) { /* Devices that use mouse pointers */
+	* {margin: 0px;}
+
+	#Discriminant {display: none;}
+
+	body {
+		overflow: hidden;
+		cursor: url('./Cursor.png') 3 16, auto;
+	}
+
+	#ProfPage {
+		width: 100%;
+		height: 100vh;
+		user-select: none;
+		-webkit-user-drag: none;
+		object-fit: cover;
+	}
+
+	#Overlay {
+		position: fixed;
+		background-color: rgba(0,0,0,0.9999);
+		z-index: 2;
+		width: 100%;
+		height: 100vh;
+	}
+}
+
+@media (pointer: coarse) { /* Devices that use touch */
+	body {
+		overflow: hidden;
+		margin: 0px;
+	}
+
+	#Overlay {
+		position: fixed;
+		background-color: rgba(0,0,0,1);
+		z-index: 2;
+		width: 100%;
+		height: 100vh;
+	}
+
+	#Discriminant {
+		z-index: 3;
+		position: absolute;
+		color: white;
+		top: 200px;
+		left: 120px;
+		width: 80%;
+		text-align: center;
+		display: block;
+	}
+}
