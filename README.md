@@ -6,7 +6,7 @@
 > Not sure why anyone would want that, but it would look very cool. \
 > Attached below is a screenshot of the page. To view the effect, open the page in a device that _uses_ a mouse pointer! \
 > 
->![Screenshot](Screenshot 2025-10-21 114309.png)
+>![Screenshot](SS/SS.png)
 
 Thank You \
 Aditya VN Kadiyala
