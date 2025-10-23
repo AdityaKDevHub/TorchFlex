@@ -4,8 +4,9 @@
 > The idea seemed super cool, and the code delivers beautifully. If this project gets enough attention, I may consider making a browser plugin out of it that uses custom torch colours and lights.
 >
 > Not sure why anyone would want that, but it would look very cool. \
-> Attached below is a screenshot of the page. To view the effect, open the page in a device that _uses_ a mouse pointer!
-![Screenshot](./Screenshot 2025-10-21 114309.png)
+> Attached below is a screenshot of the page. To view the effect, open the page in a device that _uses_ a mouse pointer! \
+> 
+>![Screenshot](Screenshot 2025-10-21 114309.png)
 
 Thank You \
 Aditya VN Kadiyala
